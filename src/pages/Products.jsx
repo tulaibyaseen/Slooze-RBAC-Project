@@ -5,8 +5,8 @@ import {
   updateProduct,
   deleteProduct,
 } from "../app/features/productsSlice";
-import { FiEdit2, FiTrash2, FiPlus } from "react-icons/fi";
-import { toast } from "react-toastify";
+import { FiEdit2, FiTrash2, } from "react-icons/fi";
+
 
 const initialForm = { name: "", category: "", stock: "", price: "" };
 
